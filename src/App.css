@@ -1,0 +1,82 @@
+
+
+.space {
+  height: 10rem;
+
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.field {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #444;
+  outline: none;
+}
+
+.field:nth-child(3n) {
+  border-right: 10px solid #000000;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+.board > div:nth-child(3n) input {
+  border-bottom: 10px solid #000000;
+}
+
+.board > div > input:nth-child(1) {
+  border-left: 10px solid #000000;
+}
+
+.board > div:nth-child(1) > input {
+  border-top: 10px solid #000000;
+}
+
+.field[readonly] {
+  color: #666;
+  background: #eee;
+}
+
+.solve {
+  margin-top: 15rem;
+  padding: 1rem 2rem !important;
+  font-weight: 700 !important;
+  font-size: 1.5em;
+  width: 10rem;
+  height: 5rem;
+  border: 5px solid black;
+  cursor: pointer;
+}
+
+.main{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-around;
+}
+
+
